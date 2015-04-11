@@ -1,0 +1,1 @@
+(ns markov-hitchhiker.generator)
