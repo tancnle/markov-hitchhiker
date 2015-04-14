@@ -1,0 +1,8 @@
+WebPack is a shell script for automatically packing Web sites by shrinking them without affecting their functionality or appearance.
+It is also useful for losslessly shrinking image collections and locating corrupt files.
+It works by stripping unnecessary information and optimizing the compression of images, and by removing comments/whitespace from HTML, using readily-available tools.
+Bundles both CommonJs and AMD modules (even combined).
+Can create a single bundle or multiple chunks that are asynchronously loaded at runtime (to reduce initial loading time).
+Dependencies are resolved during compilation reducing the runtime size.
+Loaders can preprocess files while compiling, coffeescript to javascript, handlebars strings to compiled functions, images to Base64.
+Highly modular plugin system to do whatever else your application requires.
